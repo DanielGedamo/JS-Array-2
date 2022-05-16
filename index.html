@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var myAttay = ['dniel','ben','yossi',"lior",'or'];
+        console.log(myAttay);
+        console.log(myAttay[2]);
+        for (var i=0; i<myAttay.length; i++){
+            console.log(myAttay[i]);
+        }
+        var myArray= ['1','2','10','11','30','35','44','45','46','50']
+            for (var i=0; i<myArray.length; i++){
+                if (myArray[i]%2==0){
+                console.log(myArray[i]);
+                }
+            }
+        var myArray=['hello',2,'world',6,7,'bay',98];
+        for(var i=0; i<myArray.length; i++){
+          if (){
+          console.log(myArray[i]);
+          }
+        }
+        var myArrayy= [];
+        myArrayy.push (9);
+        console.log(myArrayy);
+        // push()
+        var myArray=[];
+        for(var i=0; i<10;i++){
+            myArray.push(i)
+           
+        }
+        console.log(myArray );
+        var someAndAvg=[5,3,7,8,11]
+        var sum=0
+        for(var i=0;i<someAndAvg.length;i++){
+            sum+=someAndAvg[i]
+           
+        }
+        console.log(sum);
+        // console.log(sum/someAndAvg.length);
+        var names= ['daniel','lior','avi','or','tal']
+        for(var i=0;i<names.length;i++){
+            console.log(names[i]);
+        }
+       
+        function num(Array,number){
+           
+        
+        for (var i=0; i<Array.length;i++){
+            if (Array[i]==number){
+            return true
+
+            }
+            
+            
+        }
+        return false
+        }
+        num()
+         function num(Array){
+             var sum=0
+            for(var i=0;i<Array.length;i++){
+                  if(Array[i]%2==0){
+                    sum++ 
+                }  
+            }
+            return sum
+         }
+        function copyNum (Array1,Array2){
+          if (Array1.length==Array2.length){
+                return true;
+             }
+         return false;
+        // }
+        function muxNum (Array){
+            var max= Array[0]
+            for(var i=0; i<Array.length; i++){
+                if(max<=Array[i]){
+                    max=Array[i]
+                }
+            }
+            return max
+        }
+        function mimNum(Array){
+            var min = Array[0]
+            for(var i=0;i<Array.length;i++){
+                if(min>=Array[i]){
+                    min=Array[i]
+                }
+            }
+            return min
+        }
+        function sumNum (Array){
+            var sum=0
+            for( var i=0; i<Array.length;i++){
+                sum+=Array[i]
+            
+            }
+            return sum
+        }
+        function maxAndpi (Array){
+            var max=Array[0]
+            var min=Array[0]
+            for(i=0;i<Array.length;i++){
+                if (max<=Array[i]){
+                    max=Array[i]
+                }
+                
+                if(min>=Array[i]){
+                    min=Array[i]
+                }
+            }
+            return min*max
+        }
+        function max2 (Array){
+            var high= 0
+            var index=0
+            for (var i=0; i<Array.length;i++){
+                if(Array[i]%2==0){
+                    if(high<=Array[i]){
+                        high=Array[i]
+                        index=i
+                    }
+                } 
+            }
+            console.log(high,index) 
+        }
+        function sum (Array){
+            var sum=0
+            for(var i=0; i<Array.length; i++){
+                if(Array[i]%2==1){
+                    sum+=Array[i]
+
+                }
+            }
+            return sum
+        }
+        function names(Array,name){
+            Array.push('name');
+            return Array
+        // }
+        function emails(Array,mail){
+            Array.unshift('dacd');
+            return Array
+        // }
+        function num (Array,numm){
+            if(numm%2==0){
+             Array.unshift(numm);
+            }
+            else{
+             Array.push(numm);
+            }
+         return Array
+        }
+        function num (Array,numm){
+            for(var i=0; i<Array.length;i++){
+                if(numm==Array[i]){
+                    Array.splice(i,1)
+                }
+                else{
+                    Array.unshift(numm)
+                }
+            }
+            return Array
+        }
+        
+
+
+         
+
+
+         
+
+        
+
+
+        
+
+            
+        
+
+
+        
+
+
+    </script>
+</body>
+</html>
